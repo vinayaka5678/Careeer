@@ -62,8 +62,8 @@ import {
   XAxis,
   YAxis
 } from "recharts";
-import { careers, dbTables, skillsInDemand, stats } from "./data/careers";
-import { quizQuestions, recommendationRules } from "./data/quiz";
+import { careers, dbTables, skillsInDemand, stats } from "./careers";
+import { quizQuestions, recommendationRules } from "./quiz";
 
 ChartJS.register(
   ArcElement,
